@@ -1,0 +1,25 @@
+name: dsenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python  # latest version
+  - pandas
+  - numpy
+  - scikit-learn
+  - seaborn
+  - plotly
+  - matplotlib
+  - jupyterlab
+  - ipykernel
+  - notebook
+  - jupyter
+  - openpyxl        # for Excel file support
+  - xlrd            # for older Excel formats
+  - statsmodels     # useful for statistical models and time series
+  - scipy
+  - tqdm            # for progress bars
+  - pip             # allow pip installs
+  - pip:
+      - jupyterlab_widgets
+      - ipywidgets  # interactive widgets in notebooks

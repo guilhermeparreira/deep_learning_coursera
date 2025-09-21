@@ -1,0 +1,3 @@
+```{r, results='asis'}
+rnorm(100)
+```
